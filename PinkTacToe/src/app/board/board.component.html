@@ -1,12 +1,19 @@
-<h1>Igraj kalashturo!!? </h1>
+<h1>Igra „Kome treba <br> povećati satnicu”</h1>
 <h3>{{player}}</h3>
 
 <button (click)="newGame()">
-    Pritisnyy me aanxele!!!:**1123!
+    Ponovo pokreni
 </button>
 
-<h2 *ngIf="winner">
-    Namezhdaljga {{winner}} !!!
+<!-- <h2 *ngIf="winner">
+    Veću satnicu zaslužuje <br> {{winner}}!!! (logično XD)
+</h2> -->
+
+<h2 *ngIf="winner === 'AMINA'">
+    Veću satnicu zaslužuje <br> {{ winner }}!!! (logično XD)
+</h2>
+<h2 *ngIf="winner === 'MIRZET'">
+    NAMJEŠTALJKA!!!!
 </h2>
 
 <main>

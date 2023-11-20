@@ -23,7 +23,7 @@ export class BoardComponent implements OnInit{
   }
 
   get player(){
-    return this.xIsNext ? 'HAMZAZAZA' : 'ADYYS';
+    return this.xIsNext ? 'AMINA' : 'MIRZET';
   }
 
   makeMove(idx: number){

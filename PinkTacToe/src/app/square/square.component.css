@@ -6,8 +6,9 @@ button {
   cursor: pointer;
   display: inline-block;
   white-space: nowrap;
-  border-color: #D9A3A9;
-  background: linear-gradient(180deg, #FFE6E9 0%, #DDA6AE 49%, #B76E79 51%, #DDA6AE 100%);
+  border-color: rgb(0, 0, 0);
+  background: linear-gradient(180deg, #001F3F 0%, #003366 49%, #001F3F 51%, #003366 100%);
+
   border-radius: 5px;
   color: white;
   font-size: large;
