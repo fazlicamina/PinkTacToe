@@ -1,0 +1,21 @@
+/* square.component.css */
+
+button {
+  backface-visibility: hidden;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  border-color: #D9A3A9;
+  background: linear-gradient(180deg, #FFE6E9 0%, #DDA6AE 49%, #B76E79 51%, #DDA6AE 100%);
+  border-radius: 5px;
+  color: white;
+  font-size: large;
+  font-weight: 800;
+  font-family: 'Dancing Script', cursive;
+  padding: 45px;
+}
+
+.no-padding {
+  padding: 0;
+}

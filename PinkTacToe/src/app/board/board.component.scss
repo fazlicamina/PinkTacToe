@@ -1,13 +1,24 @@
 main{
     display: grid;
     grid-template-columns: 100px 100px 100px;
-    grid-gap: 0px;
+    grid-gap: 0;
 }
 
-app-square {
-    height: 100px;  
-}
-
-button{
-    background-color:pink;
-}
+  button{
+    backface-visibility: hidden;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    white-space: nowrap;
+    background: linear-gradient(180deg,#fea 0%,#dc8 49%,#a95 51%,#dc8 100%);
+    border-radius: 5px;
+    border-width: 2px;
+    border-color:pink;
+    padding: 10px 11px 10px;
+    color: white;
+    font-size: large;
+    font-weight: 800;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 10px;
+  }
+  
