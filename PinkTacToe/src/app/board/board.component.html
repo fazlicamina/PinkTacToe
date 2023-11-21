@@ -1,20 +1,15 @@
-<h1>Igra „Kome treba <br> povećati satnicu”</h1>
-<h3>{{player}}</h3>
+<h1><span class="seg">pinktactoe<b>.</b></span></h1>
 
-<button (click)="newGame()">
+<button class="button-29" role="button" (click)="newGame()">
     Ponovo pokreni
 </button>
 
-<!-- <h2 *ngIf="winner">
-    Veću satnicu zaslužuje <br> {{winner}}!!! (logično XD)
-</h2> -->
+<h3 *ngIf="!winner">{{player}}</h3>
 
-<h2 *ngIf="winner === 'AMINA'">
-    Veću satnicu zaslužuje <br> {{ winner }}!!! (logično XD)
+<h2 *ngIf="winner">
+    Pobjednik je {{winner}}.
 </h2>
-<h2 *ngIf="winner === 'MIRZET'">
-    NAMJEŠTALJKA!!!!
-</h2>
+
 
 <main>
     <app-square

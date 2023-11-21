@@ -1,20 +1,27 @@
-/* square.component.css */
 
 button {
-  backface-visibility: hidden;
-  position: relative;
-  cursor: pointer;
-  display: inline-block;
-  white-space: nowrap;
-  border-color: rgb(0, 0, 0);
-  background: linear-gradient(180deg, #001F3F 0%, #003366 49%, #001F3F 51%, #003366 100%);
-
-  border-radius: 5px;
-  color: white;
+  border-radius: 10px;
+  border: 0;
   font-size: large;
   font-weight: 800;
   font-family: 'Dancing Script', cursive;
   padding: 45px;
+  margin-bottom: 10px;
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button {
+  box-shadow:rgba(187, 44, 99, 0.25) 0 2px 4px,rgba(187, 44, 80, 0.25) 0 4px 8px,rgba(187, 44, 118, 0.25) 0 8px 16px,rgba(187, 44, 89, 0.25) 0 16px 32px;
 }
 
 .no-padding {
